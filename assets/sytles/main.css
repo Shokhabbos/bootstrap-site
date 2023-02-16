@@ -1,0 +1,26 @@
+header .navbar {
+    position: relative;
+}
+
+.navbar-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #212529;
+    padding: 12px 10px;
+
+}
+
+.carousel-img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
